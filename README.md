@@ -1,37 +1,16 @@
-# RetailOrder
-This project is the frontend implementation of a Retail Food Ordering Website developed as part of a Full-Stack Java application. The platform enables customers to browse and order food items such as Pizza, Cold Drinks, and Breads through a modern, responsive, and user-friendly interface.
+# React + Vite
 
-📌Project Description
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This is the frontend application of a Retail Food Ordering Website developed as part of a Full-Stack Java use case project. The platform enables customers to browse, select, and order food items such as Pizza, Cold Drinks, and Breads through a modern and responsive web interface.
-The application focuses on providing a seamless user experience with secure and efficient ordering flow.
+Currently, two official plugins are available:
 
-🚀 Key Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🏠 Landing page with hero banner and category sections
-🍕 Menu browsing with product cards (image, description, price)
-🛒 Add to Cart functionality with quantity management
-🎟 Coupon and promotional offer support
-💳 Checkout page with address and payment selection
-📦 Order confirmation page
-📜 Order history with quick reorder option
-🔐 Login & Register authentication UI
-📱 Fully responsive design (mobile-friendly)
+## React Compiler
 
-🛠 Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-React.js
-Tailwind CSS
-React Router
-Axios
-Context API
+## Expanding the ESLint configuration
 
-📂 Folder Structure
-
-src/
- ├── components/
- ├── pages/
- ├── context/
- ├── App.js
- ├── index.js
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
